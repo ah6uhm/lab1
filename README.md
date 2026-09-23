@@ -1,2 +1,2 @@
-# CCT360-template
-CCT Github Template
+# CCT360-Lab1
+Modified from CCT Github Template
