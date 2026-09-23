@@ -1,1 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.intro {
+    width: 100%;
+}
+
+
+.cards-container article {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+@media(min-width: 768px){
+    .cards-container article{
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 24px;
+}
+
+
+
+/* Added the following additional styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.intro {
+    padding: 20px;
+}
+
+.cards-container article {
+    background: #eee;
+    padding: 16px;
+    text-align: center;
+}
